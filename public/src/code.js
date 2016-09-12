@@ -6,6 +6,7 @@ const divChats = $('#divChats')
 $('form').on('submit',(e)=>{
   e.preventDefault();
   socket.emit('message',txbChat.val());
+  txbChat.val('');
 });
 
 socket.on('connect',()=>{
