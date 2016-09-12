@@ -1,3 +1,6 @@
+*.log
+npm-debug.log*
+
 app.js
 public/src/app.js
 node_modules
